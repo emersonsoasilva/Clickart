@@ -3,12 +3,13 @@
     font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 0%;
 }
 
 /* Menu */
@@ -16,12 +17,53 @@
 header {
     padding: 8px 0;
     height: 90px;
+    background-color: green;
 }
 
 .logo {
     float: left;
+    
 }
 
 .logo img{
     height: 70px
+}
+
+
+.header-nav {
+    padding: 8px 0;
+    height: 50px;
+    background-color:rgb(13, 173, 13);
+    margin-bottom: 0;
+}
+
+.menu-desk {
+    float:;
+}
+
+.menu-desk ul{
+    position: relative;
+    margin-top: 30px;
+
+}
+
+.menu-desk a{
+    color: rgb(252, 253, 252);
+    text-decoration: none;
+}
+
+.menu-desk li{
+    padding 0 100px;
+    font-weight: lighter;
+    display: inline-block
+}
+
+.menu-desk li.selected{
+    font-weight: bold;
+    text-decoration: overline;
+
+}
+
+.menu-desk a:hover {
+    text-decoration: underline;
 }
