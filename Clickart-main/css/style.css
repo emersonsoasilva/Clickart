@@ -1,6 +1,6 @@
 *
 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -38,12 +38,15 @@ header {
 }
 
 .menu-desk {
-    float:;
+    float: right;
 }
 
 .menu-desk ul{
     position: relative;
-    margin-top: 30px;
+    margin-top: 5px;
+    float: right;
+    padding-right: 500px;
+    height: 10px;
 
 }
 
@@ -53,8 +56,9 @@ header {
 }
 
 .menu-desk li{
-    padding 0 100px;
+    padding: 0px 25px;
     font-weight: lighter;
+    font-size: 25px;
     display: inline-block
 }
 
