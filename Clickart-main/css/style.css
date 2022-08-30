@@ -71,3 +71,68 @@ header {
 .menu-desk a:hover {
     text-decoration: underline;
 }
+
+/* Carrossel */
+
+.galery {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+  
+  .galery .fotos {
+    width: 500%;
+    animation-name: anime;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  
+  .galery .fotos img {
+    width: 19.9%;
+  }
+  
+
+/* Corpo */
+
+.corpo {
+    padding: 1000px 0px;
+    background-color: limegreen;
+}
+
+/* Rodapé */
+
+.w33 {
+    width: 33.3%;
+    float: left;
+}
+
+.footer1 {
+    background: green;
+    padding: 20px 0px;
+    color: black;
+
+    
+}
+
+.footer h2 {
+    font-weight: normal;
+    font-size: 24px;
+}
+
+.footer1 a {
+    display: block;
+    color: black;
+    margin-top: 10px;
+}
+
+.group-icons a {
+    display: inline-block;
+    margin: 10px 10px;
+}
+
+.footer2 {
+    padding: 10px 0px;
+    background: rgb(13, 173, 13);
+    text-align: center;
+    color: white;
+}
