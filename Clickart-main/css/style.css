@@ -104,6 +104,7 @@ header {
 .w33 {
     width: 33.3%;
     float: left;
+    text-align: center;
 }
 
 .footer1 {
@@ -114,20 +115,30 @@ header {
     
 }
 
-.footer h2 {
-    font-weight: normal;
-    font-size: 24px;
+.clear {
+    clear: both;
+}
+
+.footer1 h2 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
 }
 
 .footer1 a {
     display: block;
     color: black;
     margin-top: 10px;
+    padding-left: 0px;
 }
 
-.group-icons a {
+.footer-icons img {
     display: inline-block;
-    margin: 10px 10px;
+    margin: 0px 10px;
+    width: 100px;
+    height: 100px;
+
+    
 }
 
 .footer2 {
@@ -136,3 +147,5 @@ header {
     text-align: center;
     color: white;
 }
+
+
