@@ -1,0 +1,114 @@
+{% extends 'base.html' %}
+
+{% block head_title %}
+    Clickart
+{% endblock %}
+
+{% block header %}
+<header>
+    <div class="container">
+      <div class="logo">
+        <a href="#"><img src="static/imagens/Logo sem fundo cortado.png"></a>
+      </div>
+      <nav class="navbar navbar-light rgb(13, 173, 13)">
+        <div class="container-fluid">
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit"><span class="material-symbols-outlined">
+              search
+              </span></button>
+          </form>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="header-nav">
+      <nav class="menu-desk">
+        <ul>
+          <li><a href="/index>Principal</a></li>
+          <li><a href="/obras">Obras</a></li>
+          <li><a href="/poemas">Poemas</a></li>
+          <li><a href="/fotografias">Fotografias</a></li>
+          <li><a href="/musicas">Músicas</a></li>
+          <li><a href="/contato">Contato</a></li>
+          <li class="selected"><a href="/sobre">Sobre</a></li>
+        </ul>
+
+      </nav>
+    </div>
+  </div>
+
+
+{% endblock %}
+
+{% block main %}
+    {% block corpo %}
+    
+    <!-- Sobre -->
+    <section class="sobre-equipe">
+        <div class="container">
+          <div class="equipe-container">
+            <div class="line-text">
+              <h2>Quem somos</h2>
+
+            </div>
+
+            <div class="projeto-sobre">
+              <div class="logo-sobre">
+                <img src="imagens/Logo sem fundo cortado.png">
+              </div>
+              <div class="descricao-projeto">
+                <h2>Click Art</h2>
+                <p>
+                  Clickart é um projeto de alunos do Instituto Federal de Caraguatatuba com o intuito de amparar os artistas da região ao hospedar suas obras dentro do site, fornecendo uma infraestrutura segura para isso. O objetivo do projeto é dar o devido reconhecimento e as informações necessárias para que artistas caiçaras sejam incluídos no mercado de trabalho, acabando de vez com esse problema.
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </section>
+    {% endblock %}
+{% endblock %}
+
+{% block footer %}
+    <!-- Rodapé -->
+    <footer class="footer1">
+        <div class="container">
+          <div class="w33">
+            <h2>Localização</h2>
+            <div class="containerIframe1">
+              <iframe width="350" height="200" id="gmap_canvas" src="https://maps.google.com/maps?q=Av.%20Bahia,%201739%20-%20Indai%C3%A1,%20Caraguatatuba%20-%20SP,%2011665-071&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:200px;width:350px;}</style><a href="https://www.embedgooglemap.net"></a><style>.gmap_canvas {overflow:hidden;background:none!important;height:200px;width:350px;}</style>
+            </div>
+          </div>
+  
+          <div class="w33">
+            <div class="footer-icons">
+  
+                <h2>Redes</h2>
+                <a href="https://www.instagram.com/brasilclickart/"><img src="static/imagens/insta.png"></a>
+                <a href="https://open.spotify.com/playlist/3XLZi2CDVMCyKUQbPOJyOp?si=97_aCwp9S6yQxYdKxBWiDQ&utm_source=whatsapp&pt=503644a07693ee05a51382bdafbac2c6"><img src="static/imagens/spotify.png"></a>
+            </div>
+          </div>
+  
+          <div class="w33">
+            <div class="footer-icons">
+  
+                <h2>Contatos</h2>
+                <a href="https://api.whatsapp.com/send?phone=5512991804087&text=%E2%80%A2%20%F0%9D%98%9A%F0%9D%98%B0%F0%9D%98%AE%F0%9D%98%B0%F0%9D%98%B4%20%F0%9D%98%B6%F0%9D%98%AE%20%F0%9D%98%B1%F0%9D%98%B3%F0%9D%98%B0%F0%9D%98%AB%F0%9D%98%A6%F0%9D%98%B5%F0%9D%98%B0%20%F0%9D%98%B2%F0%9D%98%B6%F0%9D%98%A6%20%F0%9D%98%B5%F0%9D%98%A6%F0%9D%98%AE%20%F0%9D%98%A4%F0%9D%98%B0%F0%9D%98%AE%F0%9D%98%B0%20%F0%9D%98%B0%F0%9D%98%A3%F0%9D%98%AB%F0%9D%98%A6%F0%9D%98%B5%F0%9D%98%AA%F0%9D%98%B7%F0%9D%98%B0%20%F0%9D%98%A5%F0%9D%98%A2%F0%9D%98%B3%20%F0%9D%98%AE%F0%9D%98%A2%F0%9D%98%AA%F0%9D%98%B4%20%F0%9D%98%B7%F0%9D%98%AA%F0%9D%98%B4%F0%9D%98%AA%F0%9D%98%A3%F0%9D%98%AA%F0%9D%98%AD%F0%9D%98%AA%F0%9D%98%A5%F0%9D%98%A2%F0%9D%98%A5%F0%9D%98%A6%20%F0%9D%98%A2%F0%9D%98%B0%F0%9D%98%B4%20%F0%9D%98%A2%F0%9D%98%B3%F0%9D%98%B5%F0%9D%98%AA%F0%9D%98%B4%F0%9D%98%B5%F0%9D%98%A2%F0%9D%98%B4%20%F0%9D%98%A5%F0%9D%98%B0%20%F0%9D%98%93%F0%9D%98%AA%F0%9D%98%B5%F0%9D%98%B0%F0%9D%98%B3%F0%9D%98%A2%F0%9D%98%AD%20%F0%9D%98%95%F0%9D%98%B0%F0%9D%98%B3%F0%9D%98%B5%F0%9D%98%A6%20%F0%9D%98%A6%20%F0%9D%98%B4%F0%9D%98%B6%F0%9D%98%A2%F0%9D%98%B4%20%F0%9D%98%A2%F0%9D%98%B3%F0%9D%98%B5%F0%9D%98%A6%F0%9D%98%B4.%20%E2%80%A2%20%F0%9D%98%8A%F0%9D%98%B0%F0%9D%98%AF%F0%9D%98%B5%CE%B1%F0%9D%98%B5%F0%9D%98%A6-%F0%9D%98%AF%F0%9D%98%B0%F0%9D%98%B4%20%F0%9D%98%B1%CE%B1%F0%9D%98%B3%CE%B1%20%F0%9D%98%A5%F0%9D%98%B6%F0%9D%98%B7%F0%9D%98%AA%F0%9D%98%A5%F0%9D%98%A2%F0%9D%98%B4%20%F0%9D%98%B0%F0%9D%98%B6%20%F0%9D%98%B4%F0%9D%98%B6%F0%9D%98%A8%F0%9D%98%A6%F0%9D%98%B4%F0%9D%98%B5%F0%9D%98%B0%CC%83%F0%9D%98%A6%F0%9D%98%B4!%20%F0%9F%92%9A"><img src="/static/imagens/icon.png"></a>
+                <a href="mailto:brasilclickart@gmail.com?subject=Olá"><img src="static/imagens/email.png"></a>
+              </div>
+            </div>
+          </div>
+          <div class="clear"></div>
+        </div>
+      </footer>
+  
+      <footer class="footer2">
+        <p>
+          Clickart © 2022 - Todos os direitos reservados
+        </p>
+      </footer>
+{% endblock %}
