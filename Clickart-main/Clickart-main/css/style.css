@@ -1,14 +1,21 @@
 *
 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 .container {
-    max-width: 1280px;
+    max-width: 1920px;
     margin: 0 auto;
-    padding: 0 2%;
+    padding: 0 0%;
+}
+
+.line-text {
+    color: white;
+    width: 300px;
+    text-align: center;
 }
 
 /* Menu */
@@ -16,12 +23,167 @@
 header {
     padding: 8px 0;
     height: 90px;
+    background-color: green;
 }
 
 .logo {
+    width: 80%;
     float: left;
+    
 }
 
 .logo img{
     height: 70px
 }
+
+.navbar {
+    width: 20%;
+    float: right;
+}
+.header-nav {
+    padding: 8px 0;
+    height: 50px;
+    background-color:rgb(13, 173, 13);
+    margin-bottom: 0;
+}
+
+.menu-desk {
+    float: right;
+}
+
+.menu-desk ul{
+    position: relative;
+    margin-top: 5px;
+    float: right;
+    padding-right: 500px;
+    height: 10px;
+
+}
+
+.menu-desk a{
+    color: rgb(252, 253, 252);
+    text-decoration: none;
+}
+
+.menu-desk li{
+    padding: 0px 25px;
+    font-weight: lighter;
+    font-size: 25px;
+    display: inline-block
+}
+
+.menu-desk li.selected{
+    font-weight: bold;
+    text-decoration: overline;
+
+}
+
+.menu-desk a:hover {
+    text-decoration: underline;
+}
+
+/* Carrossel */
+
+.galery {
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+  }
+  
+  .galery .fotos {
+    width: 500%;
+    animation-name: anime;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+  }
+  
+  .galery .fotos img {
+    width: 19.9%;
+  }
+  
+
+/* Corpo */
+
+.corpo {
+    background-color: limegreen;
+}
+
+.line-text h1 {
+    width: 390px;
+    padding-top: 50px;
+    border-bottom: 3px solid white;
+}
+
+/* Sobre */
+
+.sobre-equipe  {
+    width: 100%;
+    background-color: limegreen;
+}
+
+.line-text h2{
+    width: 390px;
+    border-bottom: 3px solid white;
+    text-align: center;
+}
+
+.logo-sobre img{
+    width: 400px;
+    height: 400px;
+    float: left;
+}
+
+.descricao-projeto h2{
+    width: 50%;
+
+}
+/* Rodapé */
+
+.w33 {
+    width: 33.3%;
+    float: left;
+    text-align: center;
+}
+
+.footer1 {
+    background: green;
+    padding: 20px 0px;
+    color: black;
+
+    
+}
+
+.clear {
+    clear: both;
+}
+
+.footer1 h2 {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+
+.footer1 a {
+    display: block;
+    color: black;
+    margin-top: 10px;
+    padding-left: 0px;
+}
+
+.footer-icons img {
+    display: inline-block;
+    margin: 0px 10px;
+    width: 100px;
+    height: 100px;
+
+    
+}
+
+.footer2 {
+    padding: 10px 0px;
+    background: rgb(13, 173, 13);
+    text-align: center;
+    color: white;
+}
+
+
