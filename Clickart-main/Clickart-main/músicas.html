@@ -9,8 +9,17 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
     <style>
       @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500;600;700&display=swap');
+
+      .btn{
+        color: white;
+      }
+
+      .btn: hover{
+        text-decoration: none;
+      }
     </style>
 
 
@@ -22,25 +31,35 @@
         <div class="logo">
           <a href="#"><img src="img/Logo sem fundo cortado.png"></a>
         </div>
+        <nav class="navbar navbar-light rgb(13, 173, 13)">
+          <div class="container-fluid">
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit"><span class="material-symbols-outlined">
+                search
+                </span></button>
+            </form>
+          </div>
+        </nav>
       </div>
     </header>
 
-    <div class="container">
       <div class="header-nav">
-        <nav class="menu-desk">
-          <ul>
-            <li><a href="index.html">Principal</a></li>
-            <li><a href="obras.html">Obras</a></li>
-            <li><a href="poemas.html">Poemas</a></li>
-            <li><a href="fotografias.html">Fotografias</a></li>
-            <li class="selected"><a href="músicas.html">Músicas</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-          </ul>
+        <div class="container">
+          <nav class="menu-desk">
+            <ul>
+              <li><a href="index.html">Principal</a></li>
+              <li><a href="obras.html">Obras</a></li>
+              <li><a href="poemas.html">Poemas</a></li>
+              <li><a href="fotografias.html">Fotografias</a></li>
+              <li class="selected"><a href="músicas.html">Músicas</a></li>
+              <li><a href="contato.html">Contato</a></li>
+              <li><a href="sobre.html">Sobre</a></li>
+            </ul>
   
-        </nav>
+          </nav>
+        </div>
       </div>
-    </div>
 
     <!-- Rodapé -->
     <footer class="footer1">

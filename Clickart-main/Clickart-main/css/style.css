@@ -19,6 +19,15 @@
     border-bottom: 3px solid white;
 }
 
+body {
+    background-color: limegreen;
+}
+
+element.style {
+    display: flex;
+    flex-direction: column;
+}
+
 /*.line-text div {
     position: absolute;
     left: 0;
@@ -54,8 +63,10 @@ header {
 .header-nav {
     padding: 8px 0;
     height: 50px;
+    width: 100%;
     background-color:rgb(13, 173, 13);
     margin-bottom: 0;
+    width: 100%;
 }
 
 .menu-desk {
@@ -115,10 +126,10 @@ header {
 
 /* Corpo */
 
-.corpo {
-    height: 400px;
+/*.corpo {
+    height: 100%;
     background-color: limegreen;
-}
+}*/
 .corpo-container {
     justify-content: center;
     text-align: center;
@@ -133,17 +144,19 @@ header {
 
 .destaque-artista img {
     width: 15%;
-    margin-bottom: 10px;
+    margin-top: 10px;
     border-radius: 50%;
+    display: block;
+    margin: auto;
 }
 
 
 /* Sobre */
 
-.sobre-equipe  {
-    height: 500px;
+/*.sobre-equipe  {
+    height: 100%;
     background-color: limegreen;
-}
+}*/
 
 .projeto-sobre {
     width: 30%;
@@ -165,6 +178,26 @@ header {
     width: 100%;
 }
 
+.titulo-sobre {
+    width: 70%;
+    float: right;
+    padding-top: 200px;
+    color: white;
+}
+
+
+.aluno-sobre {
+    width: 33.3%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+
+}
+.imagens-sobre img{
+    width: 30%;
+    border-radius: 50%;
+}
 
 /* Rodapé */
 
@@ -178,6 +211,7 @@ header {
     background: green;
     padding: 20px 0px;
     color: black;
+    clear: both;
 
     
 }
