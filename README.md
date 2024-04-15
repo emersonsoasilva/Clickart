@@ -1,2 +1,1 @@
-# Clickart
-Uma galeria de arte online para alunos do IFSP.
+Projeto Intregador (PIA)'s project coded in HTML5 and CSS3 {INCOMPLETE}
